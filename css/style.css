@@ -23,20 +23,11 @@ body{
 	align-items: center;
 	justify-content: center;
 }
-.shadow-card-nft-1{
+.shadow-card-nft{
 	background: var(--very-dark-blue-2);
 	width: 25rem;
-	height: 30rem;
+	height: 38rem;
 	border-radius: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.shadow-card-nft-2{
-	background: var(--very-dark-blue-3);
-	width: 23rem;
-	height: 28rem;
-	border-radius: 1.75rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -44,22 +35,104 @@ body{
 .card-nft{
 	background: var(--very-dark-blue-4);
 	width: 20rem;
-	height: 25rem;
+	height: 34rem;
 	border-radius: 1.5rem;
 	padding: 1rem;
+	box-shadow: 0px 21px 0px 13px var(--very-dark-blue-3);
+	margin-top: -1.7rem;
+}
+.img{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+.img-view{
+	margin-top: 8rem;
+}
 .img-nft{
 	width: 17rem;
 	border-radius: .75rem;
+	margin-top: -10.5rem;
+}
+.img-nft:hover{
+	background-color: var(--primary-cyan);
+	filter: opacity(40%);
+	cursor: pointer;
+}
+.content{
+	display: block;
+	padding: .5rem;
 }
 .title-nft{
 	color: var(--white);
-	text-align: left;
-	display: block;
+}
+.title-nft:hover{
+	cursor: pointer;
+	color: var(--primary-cyan);
+}
+.about-nft{
+	color: var(--primary-soft-blue);
+	font-weight: 300;
+}
+.data-nft{
+	display: flex;
+	margin-top: 1.5rem;
+	justify-content: space-between;
+	font-weight: 600;
+}
+.nft-eth{
+	color: var(--primary-cyan);
+	display: flex;
+	align-items: center;
+}
+.nft-eth span{
+	margin-left: 5px;
+}
+.nft-date{
+	color: var(--primary-soft-blue);
+	display: flex;
+	align-items: center;
+}
+.nft-date span{
+	margin-left: 5px;
+	font-weight: 400;
+}
+hr{
+	width: 17rem;
+	border: 0.1px solid var(--primary-soft-blue);
+}
+.footer{
+	color: var(--primary-soft-blue);
+	display: flex;
+	align-items: center;
+	padding: .5rem;
+	font-weight: 300;
+}
+.footer img{
+	width: 2rem;
+	border: 1px solid var(--white);
+	border-radius: 1rem;
+}
+.footer span{
+	margin-left: 1rem;
+}
+.footer span a{
+	color: var(--white);
+	text-decoration: none;
+	cursor: pointer;
+}
+.footer span a:hover{
+	color: var(--primary-cyan);
 }
 footer{
-	display: block;
+	color: var(--primary-soft-blue);
+	font-weight: 300;
+}
+footer a{
+	color: var(--white);
+	text-decoration: none;
+	cursor: pointer;
+}
+footer a:hover{
+	color: var(--primary-cyan);
 }
